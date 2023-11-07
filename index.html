@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Results summary component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+</head>
+
+<body>
+  <main class="main">
+
+    <div class="results animate__animated animate__backInDown">
+      <h3 class="titulo-menor">Your Result</h3>
+      <div class="border-circle">
+        <p class="paragrafo-maior">76 </p>
+        <p class="paragrafo-menor"> of 100</p>
+      </div>
+      <h2 class="titulo-maior">Great</h2>
+      <p class="description-results">You scored higher than 65% of the people who have taken these tests.</p>
+    </div>
+
+    <ul class="info-results animate__animated animate__backInDown">
+      <li class="summary-title">
+        Summary
+      </li>
+        <li class="atributes background-reaction">
+          <div class="icon-title">
+            <img src="./assets/images/icon-reaction.svg" alt="icon-reaction">
+            <p class="style-reaction">Reaction</p>
+          </div>
+          <p class="valor">80 / <span>100</span></p>
+        </li>
+        <li class="atributes background-memory">
+          <div class="icon-title">
+            <img src="./assets/images/icon-memory.svg" alt="">
+            <p class="style-memory">Memory</p>
+          </div>
+          <p class="valor">92 / <span>100</span></p>
+        </li>
+        <li class="atributes background-verbal">
+          <div class="icon-title">
+            <img src="./assets/images/icon-verbal.svg" alt="">
+            <p class="style-verbal">Verbal</p>
+          </div>
+          <p class="valor">61 / <span>100</span></p>
+        </li>
+        <li class="atributes background-visual">
+          <div class="icon-title">
+            <img src="./assets/images/icon-visual.svg" alt="">
+            <p class="style-visual">Visual</p>
+          </div>
+          <p class="valor">72 / <span>100</span></p>
+        </li>
+        <li class="atributes btn">
+          <a href="#">Continue</a>
+        </li>
+      </ul>
+    </ul>
+  </main>
+</body>
+
+</html>
